@@ -19,7 +19,7 @@ const Examples: NextPage = () => {
         <Typography variant="h5">Heading 5</Typography>
         <Typography variant="h6">Heading 6</Typography>
         <Typography variant="body1">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, incidunt laboriosam
+          (body1) Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, incidunt laboriosam
           delectus voluptas quae aperiam aut placeat fugit eum magni? Libero reprehenderit,
           perspiciatis eum at amet autem quia impedit molestiae?
         </Typography>

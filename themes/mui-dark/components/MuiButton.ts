@@ -1,4 +1,3 @@
-import { PropsOf } from "@emotion/react";
 import { Components } from "@mui/material";
 import { Theme } from "@mui/system";
 
