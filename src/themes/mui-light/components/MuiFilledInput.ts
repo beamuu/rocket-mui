@@ -1,18 +1,17 @@
 import { Components } from "@mui/material";
 import { Theme } from "@mui/system";
 
-const MuiInputBase: Components<Theme>["MuiInputBase"] = {
+const MuiFilledInput: Components<Theme>["MuiFilledInput"] = {
   styleOverrides: {
     root: {
       padding: 5,
-      backgroundColor: "initial",
+      borderRadius: 10,
+      backgroundColor: "#ffffff10",
       "&:hover": undefined,
+      paddingLeft: 10,
+      paddingRight: 10,
     },
-    input: {
-      // padding not work in this field!
-      fontWeight: 500,
-      height: "32px",
-    },
+    underline: {},
   },
   defaultProps: {
     inputProps: {
@@ -20,6 +19,7 @@ const MuiInputBase: Components<Theme>["MuiInputBase"] = {
         padding: 5,
       },
     },
+    disableUnderline: true,
   },
 };
-export default MuiInputBase;
+export default MuiFilledInput;

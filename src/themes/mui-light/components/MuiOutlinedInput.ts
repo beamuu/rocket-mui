@@ -1,17 +1,15 @@
 import { Components } from "@mui/material";
 import { Theme } from "@mui/system";
 
-const MuiInputBase: Components<Theme>["MuiInputBase"] = {
+const MuiOutlinedInput: Components<Theme>["MuiOutlinedInput"] = {
   styleOverrides: {
     root: {
       padding: 5,
-      backgroundColor: "initial",
+      borderRadius: 10,
+      backgroundColor: "#ffffff10",
       "&:hover": undefined,
-    },
-    input: {
-      // padding not work in this field!
-      fontWeight: 500,
-      height: "32px",
+      paddingLeft: 10,
+      paddingRight: 10,
     },
   },
   defaultProps: {
@@ -22,4 +20,4 @@ const MuiInputBase: Components<Theme>["MuiInputBase"] = {
     },
   },
 };
-export default MuiInputBase;
+export default MuiOutlinedInput;

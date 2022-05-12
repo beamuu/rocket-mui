@@ -1,25 +1,22 @@
 import { Components } from "@mui/material";
 import { Theme } from "@mui/system";
 
-const MuiInputBase: Components<Theme>["MuiInputBase"] = {
+const MuiInput: Components<Theme>["MuiInput"] = {
   styleOverrides: {
     root: {
       padding: 5,
-      backgroundColor: "initial",
-      "&:hover": undefined,
+      backgroundColor: "transparent",
     },
     input: {
       // padding not work in this field!
-      fontWeight: 500,
-      height: "32px",
     },
   },
   defaultProps: {
     inputProps: {
       style: {
-        padding: 5,
-      },
-    },
+        padding: 5
+      }
+    }
   },
 };
-export default MuiInputBase;
+export default MuiInput;

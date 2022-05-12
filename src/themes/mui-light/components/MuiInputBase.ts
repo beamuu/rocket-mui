@@ -6,20 +6,19 @@ const MuiInputBase: Components<Theme>["MuiInputBase"] = {
     root: {
       padding: 5,
       backgroundColor: "initial",
-      "&:hover": undefined,
+      "&:hover": undefined
     },
     input: {
       // padding not work in this field!
       fontWeight: 500,
-      height: "32px",
     },
   },
   defaultProps: {
     inputProps: {
       style: {
-        padding: 5,
-      },
-    },
+        padding: 5
+      }
+    }
   },
 };
 export default MuiInputBase;

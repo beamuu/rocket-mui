@@ -1,5 +1,5 @@
 import { createTheme } from "@mui/material";
-import MuiCard from "./components/MuiCard";
+import MuiCard from "./components/Card";
 import MuiButton from "./components/MuiButton";
 import MuiDivider from "./components/MuiDivider";
 import MuiFilledInput from "./components/MuiFilledInput";
@@ -7,9 +7,8 @@ import MuiInput from "./components/MuiInput";
 import MuiInputBase from "./components/MuiInputBase";
 import MuiOutlinedInput from "./components/MuiOutlinedInput";
 import MuiTextField from "./components/MuiTextField";
-import MuiSlider from "./components/MuiSlider";
 
-const DarkTheme = createTheme({
+const LightTheme = createTheme({
   palette: {
     mode: "dark",
     background: {
@@ -104,8 +103,7 @@ const DarkTheme = createTheme({
     MuiFilledInput,
     MuiOutlinedInput,
     MuiCard,
-    MuiSlider,
   },
 });
 
-export default DarkTheme;
+export default LightTheme;
