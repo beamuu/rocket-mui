@@ -6,6 +6,7 @@ import {
   Container,
   Divider,
   IconButton,
+  LinearProgress,
   Slider,
   Stack,
   styled,
@@ -17,6 +18,7 @@ import SkipNextIcon from "@mui/icons-material/SkipNext";
 import SkipPreviousIcon from "@mui/icons-material/SkipPrevious";
 import PauseCircleFilledIcon from "@mui/icons-material/PauseCircleFilled";
 import Navbar from "../src/components/Navbar";
+import StyledLinearProgress from "../src/components/styled/StyledLinearProgress";
 
 const Section = styled(Box)`
   padding-top: 50px;
@@ -154,15 +156,10 @@ const Examples: NextPage = () => {
                 <Typography variant="body2" sx={{ fontSize: "14px", marginTop: "3px" }}>
                   Coldplay, BTS
                 </Typography>
-                <Slider
-                  size="small"
-                  defaultValue={74}
-                  aria-label="Small"
-                  sx={{
-                    marginTop: 2,
-                    marginBottom: 2,
-                    color: "white",
-                  }}
+                <StyledLinearProgress
+                  variant="determinate"
+                  value={40}
+                  sx={{ color: "white", marginTop: 2, marginBottom: 2 }}
                 />
                 <Stack direction="row" spacing={2} alignItems="center" justifyContent="center">
                   <IconButton>
