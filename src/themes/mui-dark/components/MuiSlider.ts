@@ -18,6 +18,9 @@ const MuiSlider: Components<Theme>["MuiSlider"] = {
       "&:focus": {
         boxShadow: "none",
       },
+      "&.Mui-focusVisible": {
+        boxShadow: "none",
+      },
       boxShadow: "none",
     },
     focusVisible: {

@@ -8,6 +8,11 @@ const MuiInputBase: Components<Theme>["MuiInputBase"] = {
       backgroundColor: "initial",
       "&:hover": undefined,
     },
+    sizeSmall: {
+      fontWeight: 500,
+      height: "32px",
+      fontSize: "0.9rem",
+    },
     input: {
       // padding not work in this field!
       fontWeight: 500,

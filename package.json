@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "yarn prettier --write ."
+    "format": "yarn prettier --write .",
+    "create-page": "node cli/pages/create.js"
   },
   "dependencies": {
     "@emotion/react": "^11.9.0",

@@ -6,9 +6,27 @@ const MuiButton: Components<Theme>["MuiButton"] = {
     disableElevation: true,
   },
   styleOverrides: {
+    sizeSmall: {
+      borderRadius: 6,
+      height: "32px",
+      fontWeight: 500,
+      fontSize: "0.8rem",
+    },
+    sizeMedium: {
+      borderRadius: 8,
+      height: "38px",
+      fontWeight: 600,
+      fontSize: "0.9rem",
+    },
+    sizeLarge: {
+      borderRadius: 10,
+      height: "48px",
+      fontWeight: 600,
+      fontSize: "1rem",
+    },
     root: {
       // css
-      borderRadius: 40,
+      
       textTransform: "none",
       height: "48px",
       fontWeight: 600,

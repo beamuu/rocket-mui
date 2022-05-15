@@ -17,7 +17,7 @@ const DarkTheme = createTheme({
     },
     primary: {
       main: "#204de3",
-      light: "#426ff5",
+      light: "#70b3ff",
       dark: "#0028ad",
       contrastText: "#fff",
     },
